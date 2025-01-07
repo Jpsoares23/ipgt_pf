@@ -1,12 +1,18 @@
 # imports
 
 from board import Board
-from utils import clearScreen
+from utils import clearScreen, chooseMode
 
 
 def game():
+
+    # variables
+    players = []
+
+    # setup
     board = Board()
-    board.printBoard()
+    mode = chooseMode()
+    clearScreen()
 
 
 if __name__ == '__main__':

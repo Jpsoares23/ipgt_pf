@@ -10,7 +10,7 @@ class Board:
         self.last_move = []
 
 
-    # Clears the screen and prints the board.
+    # clears the screen and prints the board.
     def printBoard(self) -> None:
         clearScreen()
 

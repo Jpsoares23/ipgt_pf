@@ -2,7 +2,7 @@
 
 from player import Player
 from board import Board
-from utils import clearScreen, chooseMode
+from utils import clearScreen, chooseMode, playOrder
 
 
 def game():
@@ -23,6 +23,9 @@ def game():
 
     else:
         ...
+
+    # choose starting order
+    players = playOrder(players)
 
 
 if __name__ == '__main__':
